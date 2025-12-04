@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body { 
+    font-family: "Montserrat";
+    margin: 20px;
+    background-color: #1381b4;
+}
+
+.container {
+    max-width: 800px; 
+    margin: 0 auto; 
+    background: white; 
+    padding: 20px; 
+    border-radius: 4px; 
+}
+
+.nav{ 
+    max-width: 800px; 
+    margin: 0 auto 20px; 
+    display: flex; 
+    gap: 10px;
+    flex-direction: column; 
+    background: white; 
+    padding: 20px; 
+    border-radius: 4px; 
+}
+
+button {
+    padding: 10px 20px; 
+    border: none; 
+    background-color: #e88801; 
+    color: white; 
+    border-radius: 8px; 
+    font-size: 16px; 
+}
+
+button:hover { 
+    background-color: #c87400; 
+}
+
+button.secondary { 
+    background-color: #767676; 
+}
+
+.hidden { 
+    display: none; 
+}
+
+table { 
+    width: 100%;
+    border-collapse: collapse; 
+    margin-top: 10px; 
+    display: flex;
+    flex-direction: column;
+}
+
+th, td { 
+    border: 1px solid #ddd;
+    padding: 12px; 
+    text-align: left; 
+}
+#tabela-tarefas {
+    display: flex;
+    flex-direction: column;
+}
+#tabela-tarefas tr {
+    display: flex;
+    width: 100%;
+}
+#tabela-tarefas th, 
+#tabela-tarefas td {
+    flex: 1;
+}
+
+th { 
+    background-color: #f8f9fa; 
+}
+
+.texto-urgente { 
+    color: red; 
+    font-weight: bold; 
+    order: 0;
+}
+
+.texto-normal { 
+    color: rgb(200, 200, 49); 
+    font-weight: bold; 
+    order: 1;
+
+}
+.texto- {
+    order: 4;
+}
+
+.texto-baixa { 
+    color: green; 
+    font-weight: bold;
+    order: 2;
+}
+
+.form-group { 
+    margin-bottom: 15px; 
+}
+label { 
+    display: block; 
+    margin-bottom: 5px; 
+    font-weight:bold; 
+}
+input, select, textarea { 
+    width: 100%; 
+    padding: 8px; 
+    box-sizing: border-box; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+}
+
+.hint { 
+    font-size: 0.8em; 
+    color: #4d4d4d; 
+}
