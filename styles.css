@@ -20,9 +20,18 @@ body {
     display: flex; 
     gap: 10px;
     flex-direction: column; 
-    background: white; 
     padding: 20px; 
-    border-radius: 4px; 
+    border-radius: 4px;
+    background-color: white;
+}
+
+.nav img{
+    width: 70px;
+}
+
+.nav-1{
+    display:flex;
+    justify-content: space-between;
 }
 
 button {
@@ -117,4 +126,5 @@ input, select, textarea {
 .hint { 
     font-size: 0.8em; 
     color: #4d4d4d; 
+
 }
