@@ -9,10 +9,15 @@
 <body>
 
 <div class="nav">
-    <h2>Controlador de Tarefas</h2>
-    <div id="loading">Carregando...</div>
-    <button onclick="mostrarTela('lista')">Lista de Tarefas</button>
-    <button onclick="mostrarTela('cadastro')" class="secondary">Nova Tarefa</button>
+    <div class="nav-1">
+        <h2>Controlador de Tarefas</h2>
+        <img src="logo.png">
+    </div>
+    <div class="nav-2">
+        <button onclick="mostrarTela('lista')">Lista de Tarefas</button>
+        <button onclick="mostrarTela('cadastro')" class="secondary">Nova Tarefa</button>
+        <div id="loading">Carregando...</div>
+    </div>
 </div>
 
 <div id="tela-lista" class="container">
@@ -77,4 +82,5 @@
 <script src="script.js"></script>
 
 </body>
+
 </html>
